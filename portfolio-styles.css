@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 10px;
+}
+
+.about {
+  padding: 20px;
+}
+
+.feature-container {
+  margin: 20px;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+.projects {
+  background-color: #EEAAAA;
+}
+
+.experience {
+  background-color: #AAAAEE;
+}
+
+.contact {
+  background-color: #AAEEAA;
+}
+
+@media only screen and (max-width: 800px) {
+  .projects,
+  .experience,
+  .contact {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 801px) {
+  .feature-container {
+    display: flex;
+  }
+
+  .projects,
+  .experience,
+  .contact {
+    width: 33%;
+    margin: 3px auto;
+    padding: 5px;
+  }
+}
